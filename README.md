@@ -34,7 +34,7 @@ This project aims to help educational instituions to proactively identify studen
 
 ## Model Performance
 | Model | Weighted Precision | Weighted Recall | Weighted F-1 Score | Accuracy
-| ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | SVM  | 0.80 | 0.79 | 0.79 | 0.79
 | Random Forest Classifier  | 0.78 | 0.78 | 0.78 | 0.78
 | Logistic Regression  | 0.84 | 0.83 | 0.83 | 0.83
