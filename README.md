@@ -19,14 +19,29 @@ This project aims to help educational instituions to proactively identify studen
 - Steamlit: Interactive web application
 - Jupyter Notebook: Development and analysis
 
+
+## Installation 
+# Prequisites
+- Python 3.8 or higher
+- pip package manager
+
+
+
 ## Dataset
 - 2,400 academic records
 - Features: Age, Attendence, Parental Support, Parental Education, Tutoring, Extracurricular, Sports, Music, Volunteering
 - Target: Risk level classification
 
 ## Model Performance
-| Model | Second Header |
-| ------------- | ------------- |
-| SVM  | Content Cell  |
-| Random Forest Classifier  | Content Cell  |
-| Logistic Regression  | Content Cell  |
+| Model | Weighted Precision | Weighted Recall | Weighted F-1 Score | Accuracy
+| ------------- | ------------- | ------------- | ------------- |
+| SVM  | 0.80 | 0.79 | 0.79 | 0.79
+| Random Forest Classifier  | 0.78 | 0.78 | 0.78 | 0.78
+| Logistic Regression  | 0.84 | 0.83 | 0.83 | 0.83
+
+
+## Future Improvements
+- Implement deep learning models
+
+## Licence
+MIT
