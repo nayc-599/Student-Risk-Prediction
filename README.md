@@ -37,13 +37,20 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
   
     `cd Student-Risk-Prediction`
 
-2. 
+2. Create and activate a virtual environment.
+   ``
+3. Install dependencies:
+
+   `pip install -r requirements.txt`
+5. Run the streamlit app.
+   
+   `streamlit run app.py`
 
 ## Dataset
 
 **Size:** 2,400 academic records
 
-### Features (9 input variables)
+### Features 
 - **Demographic:** Age
 - **Academic Behavior:** Attendance rate
 - **Family Support:** Parental support level, Parental education
