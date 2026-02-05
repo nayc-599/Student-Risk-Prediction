@@ -101,7 +101,6 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 ## Dashboard Screenshot
 <img width="1909" height="944" alt="image" src="https://github.com/user-attachments/assets/a704faa8-26cd-47e8-97e1-00aec659667f" />
 
-
 ## Future Improvements
 - Adjust decision threshold to priroritise higher recall (fewer false positives)
 - Allow dataset customisation/uploading
@@ -109,10 +108,26 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 - Experiment with deep learning models
 - Track individual student risk over time
 
+## Contributing
+Contributions, issues and features requests are welcome!
+
+### How to contribute
+1. Fork the repository.
+3. Create feature branch.
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+5. Commit changes.
+6. Push to branch.
+7. Open a Pull Request.
+  
+## Licence
+MIT
+
+## Author/Contact
+
+
 ## Acknowledgement
 - Data Source [https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset]
 - Sci-kit learn community for excellent documentation
 - Streamlit for the amazing framework
-  
-## Licence
-MIT
