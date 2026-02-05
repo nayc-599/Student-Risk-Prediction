@@ -12,7 +12,7 @@ def plot_charts(model, user_data_scaled, predicted_risk_level, risk_level):
     else:
         color = "green"
 
-    col3, col4 = st.columns([1,2])
+    col3, col4, col5 = st.columns([2,0.5,3])
 
     with col3:
         st.subheader("Student Risk Level:")
@@ -37,6 +37,9 @@ def plot_charts(model, user_data_scaled, predicted_risk_level, risk_level):
         st.plotly_chart(fig)
 
     with col4:
+        pass
+        
+    with col5:
         probs = model.predict_proba(user_data_scaled)[0]
         risk_labels = ["Low", "Moderate", "High", "Very High"]
         fig_probs = px.bar(
@@ -49,6 +52,6 @@ def plot_charts(model, user_data_scaled, predicted_risk_level, risk_level):
                                   "Very High (GPA < 2.00)" : "red"},
             
         )
-        st.subheader("Risk Probabilities")
+        st.subheader("Risk Probabilities:")
         st.plotly_chart(fig_probs)
         
