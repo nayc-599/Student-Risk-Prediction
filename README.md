@@ -1,5 +1,5 @@
 # Student Risk Prediction Web App
-Project Status: Complete
+Project Status: On-going
 
 ## Brief Description
 A end-to-end classification pipeline that identifies student risk level to raise awareness and support proactive academic support.
@@ -74,10 +74,20 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 | SVM  | 0.80 | 0.79 | 0.79 | 0.79
 | Random Forest Classifier  | 0.78 | 0.78 | 0.78 | 0.78
 
+## Dashboard Screenshot
+<img width="1909" height="944" alt="image" src="https://github.com/user-attachments/assets/a704faa8-26cd-47e8-97e1-00aec659667f" />
+
 
 ## Future Improvements
 - Adjust decision threshold to priroritise catching at-risk student (higher recall, fewer false positives)
+- Allow for dataset customisation/uploading
+- Add new page on overall student risk distribution
 - Implement deep learning models
 
+## Acknowledgement
+- Data Source [https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset]
+- Sci-kit learn community for excellent documentation
+- Streamlit for the amazing framework
+  
 ## Licence
 MIT
