@@ -1,11 +1,18 @@
-## Student Risk Prediction Web App
+# Student Risk Prediction Web App
 Project Status: Complete
 
 ## Brief Description
 A end-to-end classification pipeline that identifies student risk level to raise awareness and support proactive academic support.
 
 ## Purpose
-This project aims to help educational instituions to proactively identify students who may be at risk of underperformance. By analysing historical academic data including attendance, grades and engagement metics, the application provides early warning signals that enable timely intervention. The interactive dashboard allows educators and students to explore risk factors and simulate improvement strategies, fostering data-driven decision making in academic support programs. Ultimately, this tool serves to improve student outcomes by facilitatig personalised academic interventions before students fall too far behind.
+This project aims to help educational instituions to proactively identify students who may be at risk of underperformance. By analysing historical academic data including attendance, grades and engagement metics, the application provides early warning signals that enable timely intervention. 
+
+The interactive dashboard allows educators and students to:
+- explore key risk factors
+- simulate improvement strategies
+- make data-driven decision in academic support programs
+
+Ultimately, this tool serves to improve student outcomes by facilitatig personalised academic interventions before students fall too far behind.
 
 ## Features
 - Predictive Modeling: Classification pipline using Logistic Regression (benchmarked against SVM and Random Forest Classifier)
@@ -19,11 +26,11 @@ This project aims to help educational instituions to proactively identify studen
 - Steamlit: Interactive web application
 - Jupyter Notebook: Development and analysis
 
-
-## Installation 
-# Prequisites
+## Prequisites
 - Python 3.8 or higher
 - pip package manager
+
+## Installation 
 
 
 
