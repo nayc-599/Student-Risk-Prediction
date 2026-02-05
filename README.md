@@ -15,16 +15,16 @@ The interactive dashboard allows educators and students to:
 Ultimately, this tool serves to improve student outcomes by facilitatig personalised academic interventions before students fall too far behind.
 
 ## Features
-- Predictive Modeling: Classification pipline using Logistic Regression (benchmarked against SVM and Random Forest Classifier)
-- Model Optimisation: Hyper parameter tuning and class weight balancing
-- Interactive Dashboard: Real-time scenario analysis built with Streamlit; students can adjust input to see risk level change
-- Data Visualisation: Bar charts depicting probabilities of risk levels
+- **Predictive Modeling**: Classification pipline using Logistic Regression (benchmarked against SVM and Random Forest Classifier)
+- **Model Optimisation**: Hyper parameter tuning and class weight balancing
+- **Interactive Dashboard**: Real-time scenario analysis built with Streamlit; students can adjust input to see risk level change
+- **Data Visualisation**: Bar charts depicting probabilities of risk levels
 
 ## Tech Stack
-- Python/Pandas: Data wrangling and feature engineering
-- Scikit-learn: Machine learning models and evaluation
-- Steamlit: Interactive web application
-- Jupyter Notebook: Development and analysis
+- **Python/Pandas**: Data wrangling and feature engineering
+- **Scikit-learn**: Machine learning models and evaluation
+- **Steamlit**: Interactive web application
+- **Jupyter Notebook**: Development and analysis
 
 ## Prequisites
 - Python 3.8 or higher
