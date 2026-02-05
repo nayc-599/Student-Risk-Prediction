@@ -34,6 +34,7 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 1. Clone the repository.
 
   `git clone https://github.com/nayc-599/Student-Risk-Prediction.git`
+  
   `cd Student-Risk-Prediction`
 
 2. 
