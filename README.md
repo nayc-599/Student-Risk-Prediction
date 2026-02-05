@@ -84,10 +84,11 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 - **Class distribution:** ~70.5% high to very high risk students (imbalanced dataset)
 
 ## Project Structure
- ```├── data
-    │   ├── cleaned
+ ```Student-Risk-Prediction
+    ├── data
+    │   └── cleaned
     │       └── student_performance_data_cleaned.csv
-    │   ├── raw
+    │   └── raw
     │       └──  Student_performance_data_.csv
     ├── models
     │   ├── scaler.pkl
