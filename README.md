@@ -1,8 +1,11 @@
 # Student Risk Prediction Web App
-Project Status: On-going
 
-## Brief Description
-A end-to-end classification pipeline that identifies student risk level to raise awareness and support proactive academic support.
+![Status](https://img.shields.io/badge/Status-Complete-success)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+An ML-powered web application that predicts student risk levels to enable early academic intervention.
 
 ## Purpose
 This project aims to help educational instituions to proactively identify students who may be at risk of underperformance. By analysing historical academic data including attendance, grades and engagement metics, the application provides early warning signals that enable timely intervention. 
