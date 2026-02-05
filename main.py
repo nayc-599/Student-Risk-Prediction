@@ -1,6 +1,6 @@
-from app.input_helpers import get_user_input, preprocess_input
-from app.predict_risk import predict_risk
-from app.plot_charts import plot_charts
+from src.input_helpers import get_user_input, preprocess_input
+from src.predict_risk import predict_risk
+from src.plot_charts import plot_charts
 
 import streamlit as st
 import joblib 
