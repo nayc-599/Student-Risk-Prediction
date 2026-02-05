@@ -91,6 +91,7 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 - Achieves 83% overall accuracy in classifying student risk levels.
 - Demonstrates strong recall for higher-risk groups, identifying 75% of high-risk students (Class 2) and 89% of very high-risk students (Class 3).
 - Very high precision for Class 3 (0.97), indicating minimal false positives when predicting very high risk.
+
 ### Why this matters
 - High precision for Class 3 reduces unneccesary intervations and allows educators to allocate resources more sustainably
 - High recall for Classes 2 and 3 allows prioritisation of catching vulnerable students rather than missing them, allowing for timely academic support.
