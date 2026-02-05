@@ -38,23 +38,35 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 ## Installation 
 1. Clone the repository.
 
-    `git clone https://github.com/nayc-599/Student-Risk-Prediction.git`
+    ``` bash
+   git clone https://github.com/nayc-599/Student-Risk-Prediction.git
+    ```
   
-    `cd Student-Risk-Prediction`
+    ```bash
+   cd Student-Risk-Prediction
+    ```
 
-2. Create and activate a virtual environment.
+3. Create and activate a virtual environment.
 
-   `python -m venv venv`
+   ```bash
+   python -m venv venv
+   ```
 
-   `venv\Scripts\activate`
+   ```bash
+   venv\Scripts\activate
+   ```
 
    
-3. Install dependencies:
+5. Install dependencies:
 
-   `pip install -r requirements.txt`
-4. Run the streamlit app.
+   ```bash
+   pip install -r requirements.txt
+   ```
+7. Run the streamlit app.
    
-   `streamlit run app.py`
+   ```bash
+   streamlit run app.py
+   ```
 
 ## Dataset
 
@@ -113,13 +125,21 @@ Contributions, issues and features requests are welcome!
 
 ### How to contribute
 1. Fork the repository.
-3. Create feature branch.
+2. Create feature branch.
    ```bash
-   git checkout -b feature/AmazingFeature
+   git checkout -b feature/SomeFeature
    ```
-5. Commit changes.
-6. Push to branch.
-7. Open a Pull Request.
+3. Commit changes.
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+    
+4. Push to branch.
+    ```bash
+    git push feature/SomeFeature
+    ```
+   
+5. Open a Pull Request.
   
 ## Licence
 MIT
