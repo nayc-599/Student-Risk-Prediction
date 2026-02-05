@@ -5,10 +5,10 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-An ML-powered web application that predicts student risk levels to enable early academic intervention.
+An end-to-end machine learning application that identifies students at risk of academic underperformance, enabling proactive intervention and personalised support.
 
 ## Purpose
-This project aims to help educational instituions to proactively identify students who may be at risk of underperformance. By analysing historical academic data including attendance, grades and engagement metics, the application provides early warning signals that enable timely intervention. 
+This project empowers educational institutions to proactively identify students who may be at risk of underperformance. By analysing historical academic data—including attendance, grades, and engagement metrics, the application provides early warning signals that enable timely intervention. 
 
 The interactive dashboard allows educators and students to:
 - Explore key risk factors
@@ -18,10 +18,10 @@ The interactive dashboard allows educators and students to:
 Ultimately, this tool serves to improve student outcomes by facilitatig personalised academic interventions before students fall too far behind.
 
 ## Features
-- **Predictive Modeling**: Classification pipline using Logistic Regression (benchmarked against SVM and Random Forest Classifier)
-- **Model Optimisation**: Hyper parameter tuning and class weight balancing
+- **Predictive Modeling**: Classification pipeline using Logistic Regression (benchmarked against SVM and Random Forest Classifier)
+- **Model Optimisation**: Hyper parameter tuning and class weight balancing for high recall value
 - **Interactive Dashboard**: Real-time scenario analysis built with Streamlit; students can adjust input to see risk level change
-- **Data Visualisation**: Bar charts depicting probabilities of risk levels
+- **Data Visualisation**: Interactive depicting probability distribution across 4 risk levels
 
 ## Tech Stack
 - **Python/Pandas**: Data wrangling and feature engineering
@@ -47,10 +47,10 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
    `venv\Scripts\activate`
 
    
-4. Install dependencies:
+3. Install dependencies:
 
    `pip install -r requirements.txt`
-5. Run the streamlit app.
+4. Run the streamlit app.
    
    `streamlit run app.py`
 
@@ -100,10 +100,11 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 
 
 ## Future Improvements
-- Adjust decision threshold to priroritise catching at-risk student (higher recall, fewer false positives)
-- Allow for dataset customisation/uploading
+- Adjust decision threshold to priroritise higher recall (fewer false positives)
+- Allow dataset customisation/uploading
 - Add new page on overall student risk distribution
-- Implement deep learning models
+- Experiment with deep learning models
+- Track individual student risk over time
 
 ## Acknowledgement
 - Data Source [https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset]
