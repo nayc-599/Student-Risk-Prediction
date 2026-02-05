@@ -40,7 +40,8 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 2. Create and activate a virtual environment.
 
    `python -m venv venv`
-    `venv\Scripts\activate`
+
+   `venv\Scripts\activate`
 
    
 4. Install dependencies:
