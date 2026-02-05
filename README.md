@@ -74,6 +74,24 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 | SVM  | 0.80 | 0.79 | 0.79 | 0.79
 | Random Forest Classifier  | 0.78 | 0.78 | 0.78 | 0.78
 
+### Selected Model Classification Report
+**Logistic Regression**
+| Class | Precision | Recall | F1-score | Support |
+|------:|----------:|-------:|---------:|--------:|
+| 0     | 0.81      | 0.85   | 0.83     | 65      |
+| 1     | 0.71      | 0.70   | 0.70     | 80      |
+| 2     | 0.62      | 0.75   | 0.68     | 85      |
+| 3     | 0.97      | 0.89   | 0.92     | 249     |
+| **Accuracy** | — | — | **0.83** | **479** |
+| **Macro Avg** | 0.78 | 0.80 | 0.78 | 479 |
+| **Weighted Avg** | 0.84 | 0.83 | 0.83 | 479 |
+- Achieves 83% overall accuracy in classifying student risk levels.
+- Demonstrates strong recall for higher-risk groups, identifying 75% of high-risk students (Class 2) and 89% of very high-risk students (Class 3).
+- Very high precision for Class 3 (0.97), indicating minimal false positives when predicting very high risk.
+### Why this matters
+- High precision for Class 3 reduces unneccesary intervations and allows educators to allocate resources more sustainably
+- High recall for Classes 2 and 3 allows prioritisation of catching vulnerable students rather than missing them, allowing for timely academic support.
+
 ## Dashboard Screenshot
 <img width="1909" height="944" alt="image" src="https://github.com/user-attachments/assets/a704faa8-26cd-47e8-97e1-00aec659667f" />
 
