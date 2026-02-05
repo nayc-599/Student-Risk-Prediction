@@ -7,7 +7,7 @@
 
 An end-to-end machine learning application that identifies students at risk of academic underperformance, enabling proactive intervention and personalised support.
 
-Try it out here:[studentriskprediction.streamlit.app]
+**Live Demo:** [Try it here!](https://studentriskprediction.streamlit.app)
 
 ## Purpose
 This project empowers educational institutions to proactively identify students who may be at risk of underperformance. By analysing historical academic data—including attendance, grades, and engagement metrics, the application provides early warning signals that enable timely intervention. 
@@ -17,7 +17,7 @@ The interactive dashboard allows educators and students to:
 - Simulate improvement strategies through what-if analysis
 - Make data-driven decision in academic support programs
 
-Ultimately, this tool serves to improve student outcomes by facilitatig personalised academic interventions before students fall too far behind.
+Ultimately, this tool serves to improve student outcomes by facilitating personalised academic interventions before students fall too far behind.
 
 ## Features
 - **Predictive Modeling**: Classification pipeline using Logistic Regression (benchmarked against SVM and Random Forest Classifier)
@@ -28,10 +28,10 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 ## Tech Stack
 - **Python/Pandas**: Data wrangling and feature engineering
 - **Scikit-learn**: Machine learning models and evaluation
-- **Steamlit**: Interactive web application
+- **Streamlit**: Interactive web application
 - **Jupyter Notebook**: Development and analysis
 
-## Prequisites
+## Prerequisites
 - Python 3.8 or higher
 - pip package manager
 
@@ -130,14 +130,14 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 - Very high precision for Class 3 (0.97), indicating minimal false positives when predicting very high risk.
 
 ### Why this matters
-- High precision for Class 3 reduces unneccesary intervations and allows educators to allocate resources more sustainably
+- High precision for Class 3 reduces unneccesary interventions and allows educators to allocate resources more sustainably
 - High recall for Classes 2 and 3 allows prioritisation of catching vulnerable students rather than missing them, allowing for timely academic support.
 
 ## Dashboard Screenshot
 <img width="1909" height="944" alt="image" src="https://github.com/user-attachments/assets/a704faa8-26cd-47e8-97e1-00aec659667f" />
 
 ## Future Improvements
-- Adjust decision threshold to priroritise higher recall (fewer false positives)
+- Fine tune decision threshold to prioritise higher recall
 - Allow dataset customisation/uploading
 - Add new page on overall student risk distribution
 - Experiment with deep learning models
@@ -167,8 +167,9 @@ Contributions, issues and features requests are welcome!
 ## Licence
 MIT
 
-## Author/Contact
-
+## Author
+- GitHub: [@nayc-599](https://github.com/nayc-599)
+- Email: naychi1301@gmail.com
 
 ## Acknowledgement
 - Data Source [https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset]
