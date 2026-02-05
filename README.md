@@ -36,7 +36,7 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 - pip package manager
 
 ## Installation 
-1. Clone the repository.
+1. Clone the repository:
 
     ``` bash
    git clone https://github.com/nayc-599/Student-Risk-Prediction.git
@@ -46,7 +46,7 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
    cd Student-Risk-Prediction
     ```
 
-3. Create and activate a virtual environment.
+3. Create and activate a virtual environment:
 
    ```bash
    python -m venv venv
@@ -57,12 +57,12 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
    ```
 
    
-5. Install dependencies:
+4. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
-7. Run the streamlit app.
+5. Run the streamlit app:
    
    ```bash
    streamlit run app.py
