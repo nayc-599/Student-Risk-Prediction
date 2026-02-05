@@ -6,6 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 An end-to-end machine learning application that identifies students at risk of academic underperformance, enabling proactive intervention and personalised support.
+Try it out here:[studentriskprediction.streamlit.app]
 
 ## Purpose
 This project empowers educational institutions to proactively identify students who may be at risk of underperformance. By analysing historical academic data—including attendance, grades, and engagement metrics, the application provides early warning signals that enable timely intervention. 
