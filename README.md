@@ -8,16 +8,16 @@ A end-to-end classification pipeline that identifies student risk level to raise
 This project aims to help educational instituions to proactively identify students who may be at risk of underperformance. By analysing historical academic data including attendance, grades and engagement metics, the application provides early warning signals that enable timely intervention. 
 
 The interactive dashboard allows educators and students to:
-- explore key risk factors
-- simulate improvement strategies
-- make data-driven decision in academic support programs
+- Explore key risk factors
+- Simulate improvement strategies through what-if analysis
+- Make data-driven decision in academic support programs
 
 Ultimately, this tool serves to improve student outcomes by facilitatig personalised academic interventions before students fall too far behind.
 
 ## Features
 - Predictive Modeling: Classification pipline using Logistic Regression (benchmarked against SVM and Random Forest Classifier)
 - Model Optimisation: Hyper parameter tuning and class weight balancing
-- Interactive Dashboard: Real-time scenario analysis built with Streamlit
+- Interactive Dashboard: Real-time scenario analysis built with Streamlit; students can adjust input to see risk level change
 - Data Visualisation: Bar charts depicting probabilities of risk levels
 
 ## Tech Stack
@@ -31,7 +31,9 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 - pip package manager
 
 ## Installation 
+1. Clone the repository.
 
+  ``
 
 
 ## Dataset
