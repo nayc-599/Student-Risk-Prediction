@@ -72,7 +72,7 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 
 **Size:** 2,400 academic records
 
-### Features 
+### Predictors 
 - **Demographic:** Age
 - **Academic Behavior:** Attendance rate
 - **Family Support:** Parental support level, Parental education
@@ -82,6 +82,28 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 ### Target Variable
 - **Multi-class classification:** Low Risk, Medium Risk, High Risk, Very High Risk
 - **Class distribution:** ~70.5% high to very high risk students (imbalanced dataset)
+
+## Project Structure
+ ```├── data
+    │   ├── cleaned
+    │       └── student_performance_data_cleaned.csv
+    │   ├── raw
+    │       └──  Student_performance_data_.csv
+    ├── models
+    │   ├── scaler.pkl
+    │   └── student_risk_model.pkl
+    ├── screenshots
+    │   └──image.png
+    ├── src
+    │   ├── __pycache__
+    │   ├── __init__.py
+    │   ├── input_helpers.py
+    │   ├── plot_charts.py
+    │   └── predict_risk.py
+    ├── README.md
+    ├── main.py
+    └── requirements.txt
+ ```
 
 ## Model Performance
 ### Benchmark results
@@ -112,14 +134,6 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 
 ## Dashboard Screenshot
 <img width="1909" height="944" alt="image" src="https://github.com/user-attachments/assets/a704faa8-26cd-47e8-97e1-00aec659667f" />
-
-## Project Structure
-Student-Risk-Prediction
-├── data
-├── models                   
-│   ├── student_risk_model.pkl 
-│   └── 
-└── ...
 
 ## Future Improvements
 - Adjust decision threshold to priroritise higher recall (fewer false positives)
