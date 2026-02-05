@@ -38,8 +38,12 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
     `cd Student-Risk-Prediction`
 
 2. Create and activate a virtual environment.
-   ``
-3. Install dependencies:
+
+   `python -m venv venv`
+    `venv\Scripts\activate`
+
+   
+4. Install dependencies:
 
    `pip install -r requirements.txt`
 5. Run the streamlit app.
