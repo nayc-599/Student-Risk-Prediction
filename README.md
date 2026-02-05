@@ -33,9 +33,9 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 ## Installation 
 1. Clone the repository.
 
-  `git clone https://github.com/nayc-599/Student-Risk-Prediction.git`
+    `git clone https://github.com/nayc-599/Student-Risk-Prediction.git`
   
-  `cd Student-Risk-Prediction`
+    `cd Student-Risk-Prediction`
 
 2. 
 
@@ -50,16 +50,21 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 - **Academic Support:** Tutoring participation
 - **Engagement:** Extracurricular activities, Sports, Music, Volunteering
 
+### Target Variable
+- **Multi-class classification:** Low Risk, Medium Risk, High Risk, Very High Risk
+- **Class distribution:** ~70.5% high to very high risk students (imbalanced dataset)
+
 ## Model Performance
 ### Benchmark results
 | Model | Weighted Precision | Weighted Recall | Weighted F-1 Score | Accuracy
 | ------------- | ------------- | ------------- | ------------- | ------------- |
+| **Logistic Regression**  | **0.84** | **0.83** | **0.83** | **0.83**
 | SVM  | 0.80 | 0.79 | 0.79 | 0.79
 | Random Forest Classifier  | 0.78 | 0.78 | 0.78 | 0.78
-| Logistic Regression  | 0.84 | 0.83 | 0.83 | 0.83
 
 
 ## Future Improvements
+- Adjust decision threshold to priroritise catching at-risk student (higher recall, fewer false positives)
 - Implement deep learning models
 
 ## Licence
