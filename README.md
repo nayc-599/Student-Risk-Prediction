@@ -33,15 +33,24 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 ## Installation 
 1. Clone the repository.
 
-  ``
+  `git clone https://github.com/nayc-599/Student-Risk-Prediction.git`
+  `cd Student-Risk-Prediction`
 
+2. 
 
 ## Dataset
-- 2,400 academic records
-- Features: Age, Attendence, Parental Support, Parental Education, Tutoring, Extracurricular, Sports, Music, Volunteering
-- Target: Risk level classification
+
+**Size:** 2,400 academic records
+
+### Features (9 input variables)
+- **Demographic:** Age
+- **Academic Behavior:** Attendance rate
+- **Family Support:** Parental support level, Parental education
+- **Academic Support:** Tutoring participation
+- **Engagement:** Extracurricular activities, Sports, Music, Volunteering
 
 ## Model Performance
+### Benchmark results
 | Model | Weighted Precision | Weighted Recall | Weighted F-1 Score | Accuracy
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | SVM  | 0.80 | 0.79 | 0.79 | 0.79
