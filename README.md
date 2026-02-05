@@ -113,6 +113,14 @@ Ultimately, this tool serves to improve student outcomes by facilitatig personal
 ## Dashboard Screenshot
 <img width="1909" height="944" alt="image" src="https://github.com/user-attachments/assets/a704faa8-26cd-47e8-97e1-00aec659667f" />
 
+## Project Structure
+Student-Risk-Prediction
+├── data
+├── models                   
+│   ├── student_risk_model.pkl 
+│   └── 
+└── ...
+
 ## Future Improvements
 - Adjust decision threshold to priroritise higher recall (fewer false positives)
 - Allow dataset customisation/uploading
