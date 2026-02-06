@@ -1,3 +1,25 @@
+import streamlit as st
+
+def get_user_input():
+    user_input = {}
+    user_input['age'] = st.sidebar.number_input("Age", 0, 80, 16)
+    user_input['study'] = st.sidebar.slider("Study Time Weekly (Hours)", 0, 40, 5)
+    user_input['absences'] = st.sidebar.slider("Absences", 0, 30, 0)
+    user_input['parental_support'] = st.sidebar.selectbox("Parental Support", ["None", "Low", "Moderate", "High", "Very High"])
+    user_input['parental_education'] = st.sidebar.selectbox("Parental Education", ["None", "High School", "College", "Bachelor's", "Higher"])
+    user_input['tutoring'] = st.sidebar.radio("Tutoring", ["Yes", "No"], 1, horizontal=True)
+
+    col1, col2 = st.sidebar.columns(2)
+
+    with col1:
+        user_input['extracurricular'] = st.radio("Extracurricular", ["Yes", "No"], 1, horizontal=True)
+        user_input['sports'] = st.radio("Sports", ["Yes", "No"], 1, horizontal=True)
+    with col2:
+        user_input['music'] = st.radio("Music", ["Yes", "No"], 1, horizontal=True)
+        user_input['volunteering'] = st.radio("Volunteering", ["Yes", "No"], 1, horizontal=True)
+    
+    return user_input
+
 def preprocess_input(user_input):
     import pandas as pd
 
