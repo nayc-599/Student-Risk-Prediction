@@ -27,9 +27,7 @@ def plot_charts(model, user_data_scaled, predicted_risk_level, risk_level):
 
         fig.update_layout(
             showlegend = False,
-            margin=dict(l=0,r=100,t=20,b=20),
-            width=10,
-            height=10,
+            margin=dict(l=0,r=150,t=20,b=20),
             annotations=[dict(text=f"{risk_level}",
                             x=0.5, y=0.5, 
                             font_size=30, 
