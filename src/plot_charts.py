@@ -12,9 +12,9 @@ def plot_charts(model, user_data_scaled, predicted_risk_level, risk_level):
     else:
         color = "green"
 
-    col3, col4, col5 = st.columns([1.5,0.5,1])
+    col1, col2 = st.columns([1.5, 1])
 
-    with col3:
+    with col1:
         st.subheader("Student Risk Level:")
 
         fig = go.Figure(go.Pie(
@@ -37,10 +37,7 @@ def plot_charts(model, user_data_scaled, predicted_risk_level, risk_level):
 
         st.plotly_chart(fig)
 
-    with col4:
-        pass
-        
-    with col5:
+    with col2:
         probs = model.predict_proba(user_data_scaled)[0]
         risk_labels = ["Low", "Moderate", "High", "Very High"]
         fig_probs = px.bar(
