@@ -27,7 +27,7 @@ def plot_charts(model, user_data_scaled, predicted_risk_level, risk_level):
 
         fig.update_layout(
             showlegend = False,
-            margin=dict(l=0,r=50,t=20,b=20),
+            margin=dict(l=0,r=10,t=20,b=20),
             annotations=[dict(text=f"{risk_level}",
                             x=0.5, y=0.5, 
                             font_size=30, 
@@ -49,9 +49,6 @@ def plot_charts(model, user_data_scaled, predicted_risk_level, risk_level):
                                   "High (2.00 < GPA < 2.50" : "orange", 
                                   "Very High (GPA < 2.00)" : "red"},
             
-        )
-        fig.update_layout(
-            margin=dict(l=0,r=50,t=20,b=20)
         )
 
         st.subheader("Risk Probabilities:")
