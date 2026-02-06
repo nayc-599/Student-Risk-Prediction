@@ -5,6 +5,8 @@ from src.plot_charts import plot_charts
 import streamlit as st
 import joblib 
 
+st.set_page_config(layout="wide")
+
 st.title("Student Risk Early Warning System")
 st.write("""
 Predicts a student's risk level based on study habits, parental support, and extracurricular involvement.
