@@ -50,6 +50,10 @@ def plot_charts(model, user_data_scaled, predicted_risk_level, risk_level):
                                   "Very High (GPA < 2.00)" : "red"},
             
         )
+        fig.update_layout(
+            margin=dict(l=0,r=50,t=20,b=20)
+        )
+
         st.subheader("Risk Probabilities:")
         st.plotly_chart(fig_probs)
         
