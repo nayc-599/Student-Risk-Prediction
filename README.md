@@ -100,6 +100,8 @@ Ultimately, this tool serves to improve student outcomes by facilitating persona
     │   ├── input_helper.py
     │   ├── plot_charts.py
     │   └── predict_risk.py
+    ├── .gitignore
+    ├── Notebook.ipynb
     ├── README.md
     ├── main.py
     └── requirements.txt
