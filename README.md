@@ -84,7 +84,7 @@ Ultimately, this tool serves to improve student outcomes by facilitating persona
 - **Class distribution:** ~70.5% high to very high risk students (imbalanced dataset)
 
 ## Project Structure
- ```Student-Risk-Prediction
+ ```
     ├── data
     │   └── cleaned
     │       └── student_performance_data_cleaned.csv
