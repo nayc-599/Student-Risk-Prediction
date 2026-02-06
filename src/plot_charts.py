@@ -12,7 +12,7 @@ def plot_charts(model, user_data_scaled, predicted_risk_level, risk_level):
     else:
         color = "green"
 
-    col3, col4, col5 = st.columns([3,0.5,3])
+    col3, col4, col5 = st.columns([2,0.5,3])
 
     with col3:
         st.subheader("Student Risk Level:")
