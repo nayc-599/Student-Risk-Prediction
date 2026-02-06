@@ -1,4 +1,4 @@
-from input_helper import preprocess_input
+from src.input_helper import preprocess_input
 from src.predict_risk import predict_risk
 from src.plot_charts import plot_charts
 
