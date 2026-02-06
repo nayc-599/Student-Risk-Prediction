@@ -98,7 +98,7 @@ Ultimately, this tool serves to improve student outcomes by facilitating persona
     ├── src
     │   ├── __pycache__
     │   ├── __init__.py
-    │   ├── input_helpers.py
+    │   ├── input_helper.py
     │   ├── plot_charts.py
     │   └── predict_risk.py
     ├── README.md
